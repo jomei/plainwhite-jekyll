@@ -46,6 +46,9 @@ layout: default
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
+          <p class="read-more-link">
+            <a href="{{ post.url | relative_url }}">{{site.plainwhite.read_more_text}}</a>
+          </p>
         </div>
       </li>
     {%- endfor -%}

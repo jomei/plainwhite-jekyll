@@ -230,6 +230,7 @@ main {
   line-height: 1.9em;
   p {
     margin-top: 10px;
+    margin-bottom: 0.25rem;
   }
   a {
     color: $linkColor;
@@ -238,6 +239,11 @@ main {
     &:hover {
       border-bottom: 0.5px solid $linkColor;
     }
+  }
+  .read-more-link {
+    font-family: Raleway, sans-serif;
+    margin-bottom: 1em;
+    text-align: right;
   }
   h1,
   h2,
